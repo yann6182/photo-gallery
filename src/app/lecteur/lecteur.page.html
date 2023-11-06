@@ -1,0 +1,101 @@
+<ion-header>
+  <ion-toolbar mode="md">
+    <ion-title class="texte-centre texte-majuscules" color="light">Lecture de la playlist</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tabs/accueil"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="chansons.length > 0; else skeleton">
+  <img src=" {{chansons[0]?.photoArtiste}} " alt="">
+  <div class="contenu-fixe">
+  </div>
+
+  <div class="padding-haut">
+    <div class="contenu-fixe">
+      <ion-text color="light">{{ chansons[0]?.titre }}</ion-text>
+      <p class="texte-majuscules p-utilisateur microsoft marquee ">{{ chansons[0]?.nomArtiste }}</p>
+    </div>
+    <ion-range [(ngModel)]="progression" min="0" max="100" color="light">
+    </ion-range>
+    <div class="plage-duree-lecture">
+      <ion-label class="heure-debut" color="light">{{ formatDuree(progression) }}</ion-label>
+      <ion-label class="heure-fin" color="light">{{ formatDuree(100) }}</ion-label>
+    </div>
+  </div>
+
+  <ion-grid>
+    <ion-row justify-content-center align-items-center style="height: 100%">
+      <ion-col>
+        <div class="ligne-flexible">
+          <div>
+            <ion-button fill="clear" color="light">
+              <ion-icon name="heart-empty" class="taille-icone-pour-lecture"></ion-icon>
+            </ion-button>
+          </div>
+
+          <div>
+            <ion-button fill="clear" color="light" (click)="rembobiner()">
+              <ion-icon name="rewind"></ion-icon>
+            </ion-button>
+          </div>
+
+          <div>
+            <ion-button class="bouton-lecture-pause" color="light" (click)="toggleLecture()" justify-content-center
+              align-items-center>
+              <ion-icon *ngIf="!lecteurAudio.estEnLecture" name="play" class="couleur-foncee"></ion-icon>
+              <ion-icon *ngIf="lecteurAudio.estEnLecture" name="pause" class="couleur-foncee"></ion-icon>
+            </ion-button>
+          </div>
+
+          <div>
+            <ion-button fill="clear" color="light" (click)="avancer()">
+              <ion-icon name="fastforward" class="taille-icone-pour-lecture"></ion-icon>
+            </ion-button>
+          </div>
+
+          <div>
+            <ion-button fill="clear" color="light" (click)="arreter()">
+              <ion-icon name="remove-circle-outline" class="taille-icone-pour-lecture"></ion-icon>
+            </ion-button>
+          </div>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-item lines="none" class="element-transparent">
+          <ion-button slot="start" fill="clear" color="light">
+          </ion-button>
+          <ion-button slot="end" fill="clear" color="light">
+          </ion-button>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+<ng-template #skeleton>
+  <ion-list>
+    <ion-item *ngFor="let _ of [1, 2, 3]">
+      <ion-thumbnail slot="start">
+        <ion-skeleton-text animated style="width: 50px; height: 50px;"></ion-skeleton-text>
+      </ion-thumbnail>
+      <ion-label>
+        <h2>
+          <ion-skeleton-text animated style="width: 100px; height: 16px;"></ion-skeleton-text>
+        </h2>
+        <p>
+          <ion-skeleton-text animated style="width: 80px; height: 14px;"></ion-skeleton-text>
+        </p>
+        <p>
+          <ion-skeleton-text animated style="width: 120px; height: 14px;"></ion-skeleton-text>
+        </p>
+      </ion-label>
+      <ion-badge color="primary" mode="ios" slot="end">
+        <ion-skeleton-text animated style="width: 20px; height: 14px;"></ion-skeleton-text>
+      </ion-badge>
+    </ion-item>
+  </ion-list>
+</ng-template>

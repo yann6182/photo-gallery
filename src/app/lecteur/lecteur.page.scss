@@ -1,0 +1,123 @@
+ion-content {
+    --background: #99a4a3;
+}
+
+ion-toolbar {
+    --background: #99a4a3;
+}
+
+.marquee {
+    width: 450px;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    animation: defilement 50s linear infinite;
+}
+
+.texte-centre {
+    text-align: center;
+}
+
+.texte-majuscules {
+    text-transform: uppercase;
+}
+
+ion-title {
+    font-size: 11px;
+}
+
+.contenu-fixe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 24px;
+
+    ion-text {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .p-utilisateur {
+        color: var(--ion-color-light-shade);
+        font-size: 10px;
+    }
+
+    ion-thumbnail {
+        width: 280px;
+        height: 280px;
+        background-size: cover !important;
+        background-position: center !important;
+        margin-bottom: 16px;
+        transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), background-color 15ms linear, color 15ms linear;
+    }
+}
+
+.header-md:after {
+    bottom: 0px;
+}
+
+ion-button.bouton-lecture-pause {
+    width: 65px !important;
+    height: 65px !important;
+    --border-radius: 50%;
+    --background: #000000;
+    
+}
+
+.couleur-foncee {
+    color: black !important;
+    font-size: 32px;
+    margin-left: 3px;
+}
+
+ion-range {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.plage-duree-lecture {
+    display: flex;
+    justify-content: space-between;
+
+    .heure-debut {
+        padding-left: 9px;
+    }
+
+    .heure-fin {
+        padding-right: 15px;
+    }
+}
+
+.taille-icone-pour-lecture {
+    font-size: 23px;
+}
+
+.ligne-flexible {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.element-transparent {
+    --background: transparent;
+}
+
+.padding-haut {
+    padding-top: 24px;
+}
+
+.padding-bas {
+    padding-bottom: 24px;
+}
+@keyframes defilement {
+    0% {
+        text-indent: 30em
+    }
+
+    100% {
+        text-indent: -105em
+    }
+}

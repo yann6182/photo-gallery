@@ -1,0 +1,48 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>detail-categorie</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tabs/accueil"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list *ngIf="Songcat.length > 0; else skeleton">
+    <ion-item *ngFor="let song of Songcat" (click)="getChanson(song.titre)">
+      <ion-thumbnail slot="start">
+        <img src="{{ song.photoArtiste }}" alt="">
+      </ion-thumbnail>
+      <ion-label>
+        <h2>{{ song.titre }}</h2>
+        <p>{{ song.nomArtiste }}</p>
+        <p>{{ song.album.nomAlbum }}</p>
+      </ion-label>
+      <ion-badge color="primary" mode="ios" slot="end">{{ song.score }}</ion-badge>
+    </ion-item>
+  </ion-list>
+
+  <ng-template #skeleton>
+    <ion-list>
+      <ion-item *ngFor="let _ of [1, 2, 3]">
+        <ion-thumbnail slot="start">
+          <ion-skeleton-text animated style="width: 50px; height: 50px;"></ion-skeleton-text>
+        </ion-thumbnail>
+        <ion-label>
+          <h2>
+            <ion-skeleton-text animated style="width: 100px; height: 16px;"></ion-skeleton-text>
+          </h2>
+          <p>
+            <ion-skeleton-text animated style="width: 80px; height: 14px;"></ion-skeleton-text>
+          </p>
+          <p>
+            <ion-skeleton-text animated style="width: 120px; height: 14px;"></ion-skeleton-text>
+          </p>
+        </ion-label>
+        <ion-badge color="primary" mode="ios" slot="end">
+          <ion-skeleton-text animated style="width: 20px; height: 14px;"></ion-skeleton-text>
+        </ion-badge>
+      </ion-item>
+    </ion-list>
+  </ng-template>
+</ion-content>

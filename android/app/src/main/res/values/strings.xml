@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">nouvv</string>
+    <string name="title_activity_main">nouvv</string>
+    <string name="package_name">com.ing3.isi</string>
+    <string name="custom_url_scheme">com.ing3.isi</string>
+</resources>

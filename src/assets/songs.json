@@ -1,0 +1,1287 @@
+
+[
+    
+  {
+    "idChanson": 1,
+    "titre": "Locko - Danse avec moi",
+    "album": {
+      "idAlbum": 1,
+      "nomAlbum": "Locko - The Bridge",
+      "imageAlbum": "assets/images/Lockod.jpg"
+    },
+    "idCategorie": 5,
+    "nomArtiste": "Locko",
+    "photoArtiste": "assets/images/Lockod.jpg",
+    "score": 8,
+    "estFavoris": true,
+    "nomFichier": "RnB/Lockod.mp3",
+    "path": "RnB/Lockod",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 2,
+    "titre": "Beyoncé - Crazy in Love",
+    "album": {
+      "idAlbum": 2,
+      "nomAlbum": "Dangerously In Love",
+      "imageAlbum": "assets/images/Beyoncecrazy.jpg"
+    },
+    "idCategorie": 5,
+    "nomArtiste": "Beyoncé",
+    "photoArtiste": "assets/images/Beyoncecrazy.jpg",
+    "score": 9,
+    "estFavoris": false,
+    "nomFichier": "beyonce-crazy-in-love.mp3",
+    "path": "RnB/Beyoncecrazy",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 3,
+    "titre": "Usher - U Got It Bad",
+    "album": {
+      "idAlbum": 3,
+      "nomAlbum": "8701",
+      "imageAlbum": "assets/images/Ushergot.jpg"
+    },
+    "idCategorie": 5,
+    "nomArtiste": "Usher",
+    "photoArtiste": "assets/images/Ushergot.jpg",
+    "score": 7,
+    "estFavoris": true,
+    "nomFichier": "usher-u-got-it-bad.mp3",
+    "path": "RnB/Ushergot",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 4,
+    "titre": "Alicia Keys - If I Ain't Got You",
+    "album": {
+      "idAlbum": 4,
+      "nomAlbum": "The Diary of Alicia Keys",
+      "imageAlbum": "assets/images/AliciaKeysif.jpg"
+    },
+    "idCategorie": 5,
+    "nomArtiste": "Alicia Keys",
+    "photoArtiste": "assets/images/AliciaKeysif.jpg",
+    "score": 10,
+    "estFavoris": true,
+    "nomFichier": "alicia-keys-if-i-aint-got-you.mp3",
+    "path": "RnB/AliciaKeysif",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 5,
+    "titre": "Chris Brown - With You",
+    "album": {
+      "idAlbum": 5,
+      "nomAlbum": "Exclusive",
+      "imageAlbum": "assets/images/ChrisBrownwith.jpg"
+    },
+    "idCategorie": 5,
+    "nomArtiste": "Chris Brown",
+    "photoArtiste": "assets/images/ChrisBrownwith.jpg",
+    "score": 8,
+    "estFavoris": false,
+    "nomFichier": "chris-brown-with-you.mp3",
+    "path": "RnB/ChrisBrownwith",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 6,
+    "titre": "Rihanna - Umbrella",
+    "album": {
+      "idAlbum": 6,
+      "nomAlbum": "Good Girl Gone Bad",
+      "imageAlbum": "assets/images/Rihannaum.jpg"
+    },
+    "idCategorie": 5,
+    "nomArtiste": "Rihanna",
+    "photoArtiste": "assets/images/Rihannaum.jpg",
+    "score": 9,
+    "estFavoris": true,
+    "nomFichier": "rihanna-umbrella.mp3",
+    "path": "RnB/Rihannaum",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 7,
+    "titre": "John Legend - All of Me",
+    "album": {
+      "idAlbum": 7,
+      "nomAlbum": "Love in the Future",
+      "imageAlbum": "assets/images/JohnLegendall.jpg"
+    },
+    "idCategorie": 5,
+    "nomArtiste": "John Legend",
+    "photoArtiste": "assets/images/JohnLegendall.jpg",
+    "score": 10,
+    "estFavoris": true,
+    "nomFichier": "john-legend-all-of-me.mp3",
+    "path": "JohnLegendall",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 8,
+    "titre": "Aaliyah - Try Again",
+    "album": {
+      "idAlbum": 8,
+      "nomAlbum": "Romeo Must Die Soundtrack",
+      "imageAlbum": "assets/images/Aaliyahtry.jpg"
+    },
+    "idCategorie": 5,
+    "nomArtiste": "Aaliyah",
+    "photoArtiste": "assets/images/Aaliyahtry.jpg",
+    "score": 8,
+    "estFavoris": false,
+    "nomFichier": "aaliyah-try-again.mp3",
+    "path": "RnB/Aaliyahtry",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 9,
+    "titre": "Ne-Yo - So Sick",
+    "album": {
+      "idAlbum": 9,
+      "nomAlbum": "In My Own Words",
+      "imageAlbum": "assets/images/NeYosick.jpg"
+    },
+    "idCategorie": 5,
+    "nomArtiste": "Ne-Yo",
+    "photoArtiste": "assets/images/NeYosick.jpg",
+    "score": 7,
+    "estFavoris": false,
+    "nomFichier": "ne-yo-so-sick.mp3",
+    "path": "RnB/NeYosick",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 10,
+    "titre": "Mary J. Blige - Family Affair",
+    "album": {
+      "idAlbum": 10,
+      "nomAlbum": "No More Drama",
+      "imageAlbum": "assets/images/MaryJBligefam.jpg"
+    },
+    "idCategorie": 5,
+    "nomArtiste": "Mary J. Blige",
+    "photoArtiste": "assets/images/MaryJBligefam.jpg",
+    "score": 8,
+    "estFavoris": true,
+    "nomFichier": "mary-j-blige-family-affair.mp3",
+    "path": "RnB/MaryJBligefam",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 11,
+    "titre": "Bruno Mars - Versace on the Floor",
+    "album": {
+      "idAlbum": 11,
+      "nomAlbum": "24K Magic",
+      "imageAlbum": "assets/images/BrunoMarson.jpg"
+    },
+    "idCategorie": 5,
+    "nomArtiste": "Bruno Mars",
+    "photoArtiste": "assets/images/BrunoMarson.jpg",
+    "score": 9,
+    "estFavoris": true,
+    "nomFichier": "bruno-mars-versace-on-the-floor.mp3",
+    "path": "RnB/BrunoMarson",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 12,
+    "titre": "Ella Mai - Boo'd Up",
+    "album": {
+      "idAlbum": 12,
+      "nomAlbum": "Ella Mai",
+      "imageAlbum": "assets/images/EllaMaibood.jpg"
+    },
+    "idCategorie": 5,
+    "nomArtiste": "Ella Mai",
+    "photoArtiste": "assets/images/EllaMaibood.jpg",
+    "score": 8,
+    "estFavoris": false,
+    "nomFichier": "ella-mai-bood-up.mp3",
+    "path": "RnB/EllaMaibood",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 13,
+    "titre": "Miguel - Adorn",
+    "album": {
+      "idAlbum": 13,
+      "nomAlbum": "Kaleidoscope Dream",
+      "imageAlbum": "assets/images/Miguelard.jpg"
+    },
+    "idCategorie": 5,
+    "nomArtiste": "Miguel",
+    "photoArtiste": "assets/images/Miguelard.jpg",
+    "score": 8,
+    "estFavoris": true,
+    "nomFichier": "miguel-adorn.mp3",
+    "path": "Miguelard",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 14,
+    "titre": "Jhené Aiko - The Worst",
+    "album": {
+      "idAlbum": 14,
+      "nomAlbum": "Souled Out",
+      "imageAlbum": "assets/images/JheneAikothe.jpg"
+    },
+    "idCategorie": 5,
+    "nomArtiste": "Jhené Aiko",
+    "photoArtiste": "assets/images/JheneAikothe.jpg",
+    "score": 7,
+    "estFavoris": false,
+    "nomFichier": "jhene-aiko-the-worst.mp3",
+    "path": "RnB/JheneAikothe",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 15,
+    "titre": "Maxwell - Ascension (Don't Ever Wonder)",
+    "album": {
+      "idAlbum": 15,
+      "nomAlbum": "Maxwell's Urban Hang Suite",
+      "imageAlbum": "assets/images/Maxwellas.jpg"
+    },
+    "idCategorie": 5,
+    "nomArtiste": "Maxwell",
+    "photoArtiste": "assets/images/Maxwellas.jpg",
+    "score": 9,
+    "estFavoris": true,
+    "nomFichier": "maxwell-ascension.mp3",
+    "path": "RnB/Maxwellas",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 21,
+    "titre": "Lady Ponce - Secouer, Secouer",
+    "album": {
+      "idAlbum": 21,
+      "nomAlbum": "Secouer, Secouer",
+      "imageAlbum": "assets/images/LadyPoncesecouer.jpg"
+    },
+    "idCategorie": 3,
+    "nomArtiste": "Lady Ponce",
+    "photoArtiste": "assets/images/LadyPoncesecouer.jpg",
+    "score": 8,
+    "estFavoris": true,
+    "nomFichier": "lady-ponce-secouer-secouer.mp3",
+    "path": "Makossa/LadyPoncesecouer",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 22,
+    "titre": "Ben Decca - Souffrance d'Amour",
+    "album": {
+      "idAlbum": 22,
+      "nomAlbum": "Souffrance d'Amour",
+      "imageAlbum": "assets/images/BenDeccasou.jpg"
+    },
+    "idCategorie": 3,
+    "nomArtiste": "Ben Decca",
+    "photoArtiste": "assets/images/BenDeccasou.jpg",
+    "score": 7,
+    "estFavoris": false,
+    "nomFichier": "ben-decca-souffrance-damour.mp3",
+    "path": "Makossa/BenDeccasou",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 23,
+    "titre": "Dina Bell - Samba La Fierté",
+    "album": {
+      "idAlbum": 23,
+      "nomAlbum": "Samba La Fierté",
+      "imageAlbum": "assets/images/DinaBellsamba.jpg"
+    },
+    "idCategorie": 3,
+    "nomArtiste": "Dina Bell",
+    "photoArtiste": "assets/images/DinaBellsamba.jpg",
+    "score": 9,
+    "estFavoris": true,
+    "nomFichier": "dina-bell-samba-la-fierte.mp3",
+    "path": "Makossa/DinaBellsamba",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 24,
+    "titre": "Toto Guillaume - Tomber en Amour",
+    "album": {
+      "idAlbum": 24,
+      "nomAlbum": "Tomber en Amour",
+      "imageAlbum": "assets/images/TotoGuillaumeamour.jpg"
+    },
+    "idCategorie": 3,
+    "nomArtiste": "Toto Guillaume",
+    "photoArtiste": "assets/images/TotoGuillaumeamour.jpg",
+    "score": 8,
+    "estFavoris": false,
+    "nomFichier": "toto-guillaume-tomber-en-amour.mp3",
+    "path": "Makossa/TotoGuillaumeamour",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 25,
+    "titre": "Sally Nyolo - Me So Wa Yen",
+    "album": {
+      "idAlbum": 25,
+      "nomAlbum": "Tribu",
+      "imageAlbum": "assets/images/SallyNyolomeso.jpg"
+    },
+    "idCategorie": 3,
+    "nomArtiste": "Sally Nyolo",
+    "photoArtiste": "assets/images/SallyNyolomeso.jpg",
+    "score": 9,
+    "estFavoris": true,
+    "nomFichier": "sally-nyolo-me-so-wa-yen.mp3",
+    "path": "Makossa/SallyNyolomeso",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 16,
+    "titre": "Manu Dibango - Soul Makossa",
+    "album": {
+      "idAlbum": 16,
+      "nomAlbum": "Soul Makossa",
+      "imageAlbum": "assets/images/ManuDibangosoul.jpg"
+    },
+    "idCategorie": 3,
+    "nomArtiste": "Manu Dibango",
+    "photoArtiste": "assets/images/ManuDibangosoul.jpg",
+    "score": 10,
+    "estFavoris": true,
+    "nomFichier": "manu-dibango-soul-makossa.mp3",
+    "path": "Makossa/ManuDibangosoul",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 17,
+    "titre": "Petit Pays - Loba",
+    "album": {
+      "idAlbum": 17,
+      "nomAlbum": "Loba",
+      "imageAlbum": "assets/images/PetitPaysloba.jpg"
+    },
+    "idCategorie": 3,
+    "nomArtiste": "Petit Pays",
+    "photoArtiste": "assets/images/PetitPaysloba.jpg",
+    "score": 9,
+    "estFavoris": false,
+    "nomFichier": "petit-pays-loba.mp3",
+    "path": "Makossa/PetitPaysloba",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 18,
+    "titre": "Charlotte Mbango - Maladie d'Amour",
+    "album": {
+      "idAlbum": 18,
+      "nomAlbum": "Maladie d'Amour",
+      "imageAlbum": "assets/images/CharlotteMbangomaladie.jpg"
+    },
+    "idCategorie": 3,
+    "nomArtiste": "Charlotte Mbango",
+    "photoArtiste": "assets/images/CharlotteMbangomaladie.jpg",
+    "score": 8,
+    "estFavoris": true,
+    "nomFichier": "charlotte-mbango-maladie-damour.mp3",
+    "path": "Makossa/CharlotteMbangomaladie",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 19,
+    "titre": "Grace Decca - Mouna'o Beki",
+    "album": {
+      "idAlbum": 19,
+      "nomAlbum": "Mouna'o Beki",
+      "imageAlbum": "assets/images/GraceDeccamounao.jpg"
+    },
+    "idCategorie": 3,
+    "nomArtiste": "Grace Decca",
+    "photoArtiste": "assets/images/GraceDeccamounao.jpg",
+    "score": 7,
+    "estFavoris": false,
+    "nomFichier": "grace-decca-mounao-beki.mp3",
+    "path": "Makossa/GraceDeccamounao",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 20,
+    "titre": "Awilo Longomba - Gate le Coin",
+    "album": {
+      "idAlbum": 20,
+      "nomAlbum": "Gate le Coin",
+      "imageAlbum": "assets/images/AwiloLongombagate.jpg"
+    },
+    "idCategorie": 3,
+    "nomArtiste": "Awilo Longomba",
+    "photoArtiste": "assets/images/AwiloLongombagate.jpg",
+    "score": 9,
+    "estFavoris": true,
+    "nomFichier": "awilo-longomba-gate-le-coin.mp3",
+    "path": "Makossa/AwiloLongombagate",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 26,
+    "titre": "Dina Bell - Soca Souvenir",
+    "album": {
+      "idAlbum": 26,
+      "nomAlbum": "Soca Souvenir",
+      "imageAlbum": "assets/images/DinaBellsouvenir.jpg"
+    },
+    "idCategorie": 3,
+    "nomArtiste": "Dina Bell",
+    "photoArtiste": "assets/images/DinaBellsouvenir.jpg",
+    "score": 8,
+    "estFavoris": false,
+    "nomFichier": "dina-bell-soca-souvenir.mp3",
+    "path": "Makossa/DinaBellsouvenir",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 28,
+    "titre": "Marthe Zambo - Bana",
+    "album": {
+      "idAlbum": 28,
+      "nomAlbum": "Bana",
+      "imageAlbum": "assets/images/MartheZambobana.jpg"
+    },
+    "idCategorie": 3,
+    "nomArtiste": "Marthe Zambo",
+    "photoArtiste": "assets/images/MartheZambobana.jpg",
+    "score": 7,
+    "estFavoris": false,
+    "nomFichier": "marthe-zambo-bana.mp3",
+    "path": "Makossa/MartheZambobana",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 29,
+    "titre": "Longue Longue - Ayo Africa",
+    "album": {
+      "idAlbum": 29,
+      "nomAlbum": "Ayo Africa",
+      "imageAlbum": "assets/images/LongueLongueayo.jpg"
+    },
+    "idCategorie": 3,
+    "nomArtiste": "Longue Longue",
+    "photoArtiste": "assets/images/LongueLongueayo.jpg",
+    "score": 8,
+    "estFavoris": true,
+    "nomFichier": "longue-longue-ayo-africa.mp3",
+    "path": "Makossa/LongueLongueayo",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 30,
+    "titre": "Sally Nyolo - Tam Tam",
+    "album": {
+      "idAlbum": 30,
+      "nomAlbum": "Multiculti",
+      "imageAlbum": "assets/images/SallyNyolotam.jpg"
+    },
+    "idCategorie": 3,
+    "nomArtiste": "Sally Nyolo",
+    "photoArtiste": "assets/images/SallyNyolotam.jpg",
+    "score": 9,
+    "estFavoris": false,
+    "nomFichier": "sally-nyolo-tam-tam.mp3",
+    "path": "Makossa/SallyNyolotam",
+    "fileType": "mp3"
+  },
+  {
+    "idChanson": 24,
+    "titre": "Richard Bona - Ekwa Mwato",
+    "album": {
+      "idAlbum": 24,
+      "nomAlbum": "Munia: The Tale",
+      "imageAlbum": "assets/images/RichardBonaekwa.jpg"
+    },
+    "idCategorie": 3,
+    "nomArtiste": "Richard Bona",
+    "photoArtiste": "assets/images/RichardBonaekwa.jpg",
+    "score": 8,
+    "estFavoris": false,
+    "nomFichier": "richard-bona-ekwa-mwato.mp3",
+    "path": "Makossa/RichardBonaekwa",
+    "fileType": "mp3"
+  },
+  
+    {
+      "idChanson": 1,
+      "titre": "Locko - Danse avec moi",
+      "album": {
+        "idAlbum": 1,
+        "nomAlbum": "Locko - The Bridge",
+        "imageAlbum": "assets/images/Lockod.jpg"
+      },
+      "idCategorie": 4,
+      "nomArtiste": "Locko",
+      "photoArtiste": "assets/images/Lockod.jpg",
+      "score": 8,
+      "estFavoris": true,
+      "nomFichier": "locko-danse-avec-moi.mp3",
+      "path":"AfroUrban/Lockod",
+      "fileType": "mp3"
+    },
+    {
+      "idChanson": 2,
+      "titre": "Dadju - Donne-moi l'accord",
+      "album": {
+        "idAlbum": 2,
+        "nomAlbum": "Dadju - Poison ou Antidote",
+        "imageAlbum": "assets/images/Dadjudonne.jpg"
+      },
+      "idCategorie": 4,
+      "nomArtiste": "Dadju",
+      "photoArtiste": "assets/images/Dadjudonne.jpg",
+      "score": 9,
+      "estFavoris": true,
+      "nomFichier": "dadju-donne-moi-laccord.mp3",
+      "path":"AfroUrban/Dadjudonne",
+      "fileType": "mp3"
+    },
+    {
+      "idChanson": 3,
+      "titre": "Tenor - Bad Things",
+      "album": {
+        "idAlbum": 3,
+        "nomAlbum": "Tenor - Nnom Ngui",
+        "imageAlbum": "assets/images/Tenorbad.jpg"
+      },
+      "idCategorie": 4,
+      "nomArtiste": "Tenor",
+      "photoArtiste": "assets/images/Tenorbad.jpg",
+      "score": 7,
+      "estFavoris": false,
+      "nomFichier": "tenor-bad-things.mp3",
+      "path":"AfroUrban/Tenorbad",
+      "fileType": "mp3"
+    },
+    {
+      "idChanson": 4,
+      "titre": "Mr. Leo - Je suis désolé",
+      "album": {
+        "idAlbum": 4,
+        "nomAlbum": "Mr. Leo - Love Original",
+        "imageAlbum": "assets/images/MrLeodesole.jpg"
+      },
+      "idCategorie": 4,
+      "nomArtiste": "Mr. Leo",
+      "photoArtiste": "assets/images/MrLeodesole.jpg",
+      "score": 8,
+      "estFavoris": true,
+      "nomFichier": "mr-leo-je-suis-desole.mp3",
+      "path":"AfroUrban/MrLeodesole",
+      "fileType": "mp3"
+    },
+    {
+      "idChanson": 5,
+      "titre": "Ko-C - Bollo c'est bollo",
+      "album": {
+        "idAlbum": 5,
+        "nomAlbum": "Ko-C - Bollo c'est bollo",
+        "imageAlbum": "assets/images/KoCbollo.jpg"
+      },
+      "idCategorie": 4,
+      "nomArtiste": "Ko-C",
+      "photoArtiste": "assets/images/KoCbollo.jpg",
+      "score": 6,
+      "estFavoris": false,
+      "nomFichier": "ko-c-bollo-cest-bollo.mp3",
+      "path":"AfroUrban/KoCbollo",
+      "fileType": "mp3"
+    },
+    {
+        "idChanson": 51,
+        "titre": "Niska - Réseaux",
+        "album": {
+          "idAlbum": 51,
+          "nomAlbum": "Niska - Commando",
+          "imageAlbum": "assets/images/Niskareseaux.jpg"
+        },
+        "idCategorie": 4,
+        "nomArtiste": "Niska",
+        "photoArtiste": "assets/images/Niskareseaux.jpg",
+        "score": 9,
+        "estFavoris": true,
+        "nomFichier": "niska-reseaux.mp3",
+        "path":"AfroUrban/Niskareseaux",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 52,
+        "titre": "Aya Nakamura - Djadja",
+        "album": {
+          "idAlbum": 52,
+          "nomAlbum": "Aya Nakamura - Nakamura",
+          "imageAlbum": "assets/images/AyaNakamuradjadja.jpg"
+        },
+        "idCategorie": 4,
+        "nomArtiste": "Aya Nakamura",
+        "photoArtiste": "assets/images/AyaNakamuradjadja.jpg",
+        "score": 8,
+        "estFavoris": false,
+        "nomFichier": "aya-nakamura-djadja.mp3",
+        "path":"AfroUrban/AyaNakamuradjadja",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 41,
+        "titre": "Yemi Alade - Johnny",
+        "album": {
+          "idAlbum": 41,
+          "nomAlbum": "Yemi Alade - King of Queens",
+          "imageAlbum": "assets/images/YemiAladejohnny.jpg"
+        },
+        "idCategorie": 4,
+        "nomArtiste": "Yemi Alade",
+        "photoArtiste": "assets/images/YemiAladejohnny.jpg",
+        "score": 9,
+        "estFavoris": true,
+        "nomFichier": "yemi-alade-johnny.mp3",
+        "path":"AfroUrban/YemiAladejohnny",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 42,
+        "titre": "Mr Eazi - Leg Over",
+        "album": {
+          "idAlbum": 42,
+          "nomAlbum": "Mr Eazi - Life is Eazi, Vol. 1 - Accra To Lagos",
+          "imageAlbum": "assets/images/MrEaziover.jpg"
+        },
+        "idCategorie": 4,
+        "nomArtiste": "Mr Eazi",
+        "photoArtiste": "assets/images/MrEaziover.jpg",
+        "score": 8,
+        "estFavoris": false,
+        "nomFichier": "mr-eazi-leg-over.mp3",
+        "path":"AfroUrban/MrEaziover",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 31,
+        "titre": "Tiwa Savage - All Over",
+        "album": {
+          "idAlbum": 31,
+          "nomAlbum": "Tiwa Savage - Sugarcane",
+          "imageAlbum": "assets/images/TiwaSavageallover.jpg"
+        },
+        "idCategorie": 4,
+        "nomArtiste": "Tiwa Savage",
+        "photoArtiste": "assets/images/TiwaSavageallover.jpg",
+        "score": 7,
+        "estFavoris": false,
+        "nomFichier": "tiwa-savage-all-over.mp3",
+        "path":"AfroUrban/TiwaSavageallover",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 32,
+        "titre": "Wizkid - Fever",
+        "album": {
+          "idAlbum": 32,
+          "nomAlbum": "Wizkid - Made in Lagos",
+          "imageAlbum": "assets/images/Wizkidfever.jpg"
+        },
+        "idCategorie": 4,
+        "nomArtiste": "Wizkid",
+        "photoArtiste": "assets/images/Wizkidfever.jpg",
+        "score": 8,
+        "estFavoris": true,
+        "nomFichier": "wizkid-fever.mp3",
+        "path":"AfroUrban/Wizkidfever",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 21,
+        "titre": "Davido - Fall",
+        "album": {
+          "idAlbum": 21,
+          "nomAlbum": "Davido - A Good Time",
+          "imageAlbum": "assets/images/Davidofall.jpg"
+        },
+        "idCategorie": 4,
+        "nomArtiste": "Davido",
+        "photoArtiste": "assets/images/Davidofall.jpg",
+        "score": 9,
+        "estFavoris": true,
+        "nomFichier": "davido-fall.mp3",
+        "path":"AfroUrban/Davidofall",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 22,
+        "titre": "Burna Boy - Ye",
+        "album": {
+          "idAlbum": 22,
+          "nomAlbum": "Burna Boy - Outside",
+          "imageAlbum": "assets/images/BurnaBoyYe.jpg"
+        },
+        "idCategorie": 4,
+        "nomArtiste": "Burna Boy",
+        "photoArtiste": "assets/images/BurnaBoyYe.jpg",
+        "score": 8,
+        "estFavoris": false,
+        "nomFichier": "burna-boy-ye.mp3",
+        "path":"AfroUrban/BurnaBoyYe",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 11,
+        "titre": "Fally Ipupa - Ecole",
+        "album": {
+          "idAlbum": 11,
+          "nomAlbum": "Fally Ipupa - Control",
+          "imageAlbum": "assets/images/FallyIpupaEcole.jpg"
+        },
+        "idCategorie": 4,
+        "nomArtiste": "Fally Ipupa",
+        "photoArtiste": "assets/images/FallyIpupaEcole.jpg",
+        "score": 7,
+        "estFavoris": false,
+        "nomFichier": "fally-ipupa-ecole.mp3",
+        "path":"AfroUrban/FallyIpupaEcole",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 12,
+        "titre": "Naza - La débauche",
+        "album": {
+          "idAlbum": 12,
+          "nomAlbum": "Naza - Gros bébé",
+          "imageAlbum": "assets/images/NazaLadebauche.jpg"
+        },
+        "idCategorie": 4,
+        "nomArtiste": "Naza",
+        "photoArtiste": "assets/images/NazaLadebauche.jpg",
+        "score": 6,
+        "estFavoris": true,
+        "nomFichier": "naza-la-debauche.mp3",
+        "path":"AfroUrban/NazaLadebauche",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 2,
+        "titre": "Coco Argentee - Made in Cameroun",
+        "album": {
+          "idAlbum": 2,
+          "nomAlbum": "Coco Argentee - La Cocote",
+          "imageAlbum": "assets/images/CocoArgenteemade.jpg"
+        },
+        "idCategorie": 2,
+        "nomArtiste": "Coco Argentee",
+        "photoArtiste": "assets/images/CocoArgenteemade.jpg",
+        "score": 9,
+        "estFavoris": false,
+        "nomFichier": "coco-argentee-made-in-cameroun.mp3",
+        "path": "Bitkusi/CocoArgenteemade",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 3,
+        "titre": "Lady Ponce - O Bale Ma",
+        "album": {
+          "idAlbum": 3,
+          "nomAlbum": "Lady Ponce - O Bale Ma",
+          "imageAlbum": "assets/images/LadyPoncebale.jpg"
+        },
+        "idCategorie": 2,
+        "nomArtiste": "Lady Ponce",
+        "photoArtiste": "assets/images/LadyPoncebale.jpg",
+        "score": 7,
+        "estFavoris": true,
+        "nomFichier": "lady-ponce-o-bale-ma.mp3",
+        "path": "Bitkusi/LadyPoncebale",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 11,
+        "titre": "C'est la vie de Mani Bella",
+        "album": {
+          "idAlbum": 11,
+          "nomAlbum": "C'est la vie",
+          "imageAlbum": "assets/images/ManiBellavie.jpg"
+        },
+        "idCategorie": 2,
+        "nomArtiste": "Mani Bella",
+        "photoArtiste": "assets/images/ManiBellavie.jpg",
+        "score": 9,
+        "estFavoris": true,
+        "nomFichier": "mani-bella-cest-la-vie.mp3",
+        "path": "Bitkusi/ManiBellavie",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 12,
+        "titre": "Olé Olé de Petit Pays",
+        "album": {
+          "idAlbum": 12,
+          "nomAlbum": "Olé Olé",
+          "imageAlbum": "assets/images/PetitPaysole.jpg"
+        },
+        "idCategorie": 2,
+        "nomArtiste": "Petit Pays",
+        "photoArtiste": "assets/images/PetitPaysole.jpg",
+        "score": 8,
+        "estFavoris": false,
+        "nomFichier": "petit-pays-ole-ole.mp3",
+        "path": "Bitkusi/PetitPaysole",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 13,
+        "titre": "Amina de Jovi",
+        "album": {
+          "idAlbum": 13,
+          "nomAlbum": "Amina",
+          "imageAlbum": "assets/images/Joviamina.jpg"
+        },
+        "idCategorie": 2,
+        "nomArtiste": "Jovi",
+        "photoArtiste": "assets/images/Joviamina.jpg",
+        "score": 7,
+        "estFavoris": true,
+        "nomFichier": "jovi-amina.mp3",
+        "path": "Bitkusi/Joviamina",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 14,
+        "titre": "Yaka de Salatiel",
+        "album": {
+          "idAlbum": 14,
+          "nomAlbum": "Yaka",
+          "imageAlbum": "assets/images/Salatielyaka.jpg"
+        },
+        "idCategorie": 2,
+        "nomArtiste": "Salatiel",
+        "photoArtiste": "assets/images/Salatielyaka.jpg",
+        "score": 6,
+        "estFavoris": false,
+        "nomFichier": "salitiel-yaka.mp3",
+        "path": "Bitkusi/Salatielyaka",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 15,
+        "titre": "Tchimi de Locko",
+        "album": {
+          "idAlbum": 15,
+          "nomAlbum": "Tchimi",
+          "imageAlbum": "assets/images/Lockomi.jpg"
+        },
+        "idCategorie": 2,
+        "nomArtiste": "Locko",
+        "photoArtiste": "assets/images/Lockomi.jpg",
+        "score": 5,
+        "estFavoris": true,
+        "nomFichier": "locko-tchimi.mp3",
+        "path": "Bitkusi/Lockomi",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 21,
+        "titre": "Fufu de Reniss",
+        "album": {
+          "idAlbum": 21,
+          "nomAlbum": "Fufu",
+          "imageAlbum": "assets/images/Renissfufu.jpg"
+        },
+        "idCategorie": 2,
+        "nomArtiste": "Reniss",
+        "photoArtiste": "assets/images/Renissfufu.jpg",
+        "score": 9,
+        "estFavoris": true,
+        "nomFichier": "reniss-fufu.mp3",
+        "path": "Bitkusi/Renissfufu",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 22,
+        "titre": "Bikoum de Magasco",
+        "album": {
+          "idAlbum": 22,
+          "nomAlbum": "Bikoum",
+          "imageAlbum": "assets/images/Magascobikoum.jpg"
+        },
+        "idCategorie": 2,
+        "nomArtiste": "Magasco",
+        "photoArtiste": "assets/images/Magascobikoum.jpg",
+        "score": 8,
+        "estFavoris": false,
+        "nomFichier": "magasco-bikoum.mp3",
+        "path": "Bitkusi/Magascobikoum",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 23,
+        "titre": "Ko'o Ma de Magasco",
+        "album": {
+          "idAlbum": 23,
+          "nomAlbum": "Ko'o Ma",
+          "imageAlbum": "assets/images/Magascoko.jpg"
+        },
+        "idCategorie": 2,
+        "nomArtiste": "Magasco",
+        "photoArtiste": "assets/images/Magascoko.jpg",
+        "score": 7,
+        "estFavoris": true,
+        "nomFichier": "magasco-koo-ma.mp3",
+        "path": "Bitkusi/Magascoko",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 24,
+        "titre": "Etombolo de Jovi",
+        "album": {
+          "idAlbum": 24,
+          "nomAlbum": "Etombolo",
+          "imageAlbum": "assets/images/Jovietombolo.jpg"
+        },
+        "idCategorie": 2,
+        "nomArtiste": "Jovi",
+        "photoArtiste": "assets/images/Jovietombolo.jpg",
+        "score": 6,
+        "estFavoris": false,
+        "nomFichier": "jovi-etombolo.mp3",
+        "path": "Bitkusi/Jovietombolo",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 25,
+        "titre": "C'est la vie de Salatiel",
+        "album": {
+          "idAlbum": 25,
+          "nomAlbum": "C'est la vie",
+          "imageAlbum": "assets/images/Salatielvie.jpg"
+        },
+        "idCategorie": 2,
+        "nomArtiste": "Salatiel",
+        "photoArtiste": "assets/images/Salatielvie.jpg",
+        "score": 5,
+        "estFavoris": true,
+        "nomFichier": "salitiel-cest-la-vie.mp3",
+        "path": "Bitkusi/Salatielvie",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 41,
+        "titre": "Ndombolo de King Mensah",
+        "album": {
+          "idAlbum": 41,
+          "nomAlbum": "Ndombolo",
+          "imageAlbum": "assets/images/KingMensahndombolo.jpg"
+        },
+        "idCategorie": 2,
+        "nomArtiste": "King Mensah",
+        "photoArtiste": "assets/images/KingMensahndombolo.jpg",
+        "score": 9,
+        "estFavoris": true,
+        "nomFichier": "king-mensah-ndombolo.mp3",
+        "path": "Bitkusi/KingMensahndombolo",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 42,
+        "titre": "Oyo de Magasco",
+        "album": {
+          "idAlbum": 42,
+          "nomAlbum": "Oyo",
+          "imageAlbum": "assets/images/Magascooyo.jpg"
+        },
+        "idCategorie": 2,
+        "nomArtiste": "Magasco",
+        "photoArtiste": "assets/images/Magascooyo.jpg",
+        "score": 8,
+        "estFavoris": false,
+        "nomFichier": "magasco-oyo.mp3",
+        "path": "Bitkusi/Magascooyo",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 43,
+        "titre": "Bikoum de Mani Bella",
+        "album": {
+          "idAlbum": 43,
+          "nomAlbum": "Bikoum",
+          "imageAlbum": "assets/images/ManiBellaBikoum.jpg"
+        },
+        "idCategorie": 2,
+        "nomArtiste": "Mani Bella",
+        "photoArtiste": "assets/images/ManiBellaBikoum.jpg",
+        "score": 7,
+        "estFavoris": true,
+        "nomFichier": "mani-bella-bikoum.mp3",
+        "path": "Bitkusi/ManiBellaBikoum",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 1,
+        "titre": "Menzui - Kouchouam Mbada",
+        "album": {
+          "idAlbum": 1,
+          "nomAlbum": "Benskin",
+          "imageAlbum": "assets/images/MbadaMenzui.jpg"
+        },
+        "idCategorie": 1,
+        "nomArtiste": "Kouchouam Mbada",
+        "photoArtiste": "assets/images/MbadaMenzui.jpg",
+        "score": 8,
+        "estFavoris": true,
+        "nomFichier": "benskin-kouchouam-mbada.mp3",
+        "path": "Benskin/MbadaMenzui",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 2,
+        "titre": "La main dans la main - Djomo Jeannette et Les REMES STARS",
+        "album": {
+          "idAlbum": 2,
+          "nomAlbum": "Les REMES STARS",
+          "imageAlbum": "assets/images/DjomoJeannetteREMESSTARS.jpg"
+        },
+        "idCategorie": 1,
+        "nomArtiste": "Djomo Jeannette et Les REMES STARS",
+        "photoArtiste": "assets/images/DjomoJeannetteREMESSTARS.jpg",
+        "score": 7,
+        "estFavoris": false,
+        "nomFichier": "la-main-dans-la-main-djomo-jeannette-et-les-remes-stars.mp3",
+        "path": "Benskin/DjomoJeannetteREMESSTARS",
+        "fileType": "mp3"
+      },
+      
+      {
+        "idChanson": 8,
+        "titre": "Jamais - Périgord",
+        "album": {
+          "idAlbum": 8,
+          "nomAlbum": "Périgord",
+          "imageAlbum": "assets/images/Périgordj.jpg"
+        },
+        "idCategorie": 1,
+        "nomArtiste": "Périgord",
+        "photoArtiste": "assets/images/Périgordj.jpg",
+        "score": 9,
+        "estFavoris": true,
+        "nomFichier": "perigord-perigord.mp3",
+        "path": "Benskin/Périgordj",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 9,
+        "titre": "Djombè - André-Marie Tala",
+        "album": {
+          "idAlbum": 9,
+          "nomAlbum": "Djombè",
+          "imageAlbum": "assets/images/AndreMarieTaladj.jpg"
+        },
+        "idCategorie": 1,
+        "nomArtiste": "André-Marie Tala",
+        "photoArtiste": "assets/images/AndreMarieTaladj.jpg",
+        "score": 8,
+        "estFavoris": true,
+        "nomFichier": "djombè-andre-marie-tala.mp3",
+        "path": "Benskin/AndreMarieTaladj",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 10,
+        "titre": "Histoire d'amour - Marole Tchamba",
+        "album": {
+          "idAlbum": 10,
+          "nomAlbum": "Le benskin de Bamenda",
+          "imageAlbum": "assets/images/MaroleTchambaHistoire.jpg"
+        },
+        "idCategorie": 1,
+        "nomArtiste": "Marole Tchamba",
+        "photoArtiste": "assets/images/MaroleTchambaHistoire.jpg",
+        "score": 7,
+        "estFavoris": false,
+        "nomFichier": "le-benskin-de-bamenda-marole-tchamba.mp3",
+        "path": "Benskin/MaroleTchambaHistoire",
+        "fileType": "mp3"
+      },
+      
+      {
+        "idChanson": 16,
+        "titre": "Fingon Tralala - Ben Skin Tralalatisé",
+        "album": {
+          "idAlbum": 16,
+          "nomAlbum": "Ben Skin Tralalatisé",
+          "imageAlbum": "assets/images/FingonTralalab.jpg"
+        },
+        "idCategorie": 1,
+        "nomArtiste": "Fingon Tralala",
+        "photoArtiste": "assets/images/FingonTralalab.jpg",
+        "score": 9,
+        "estFavoris": true,
+        "nomFichier": "Fingon Tralala.mp3",
+        "path": "Benskin/FingonTralalab",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 17,
+        "titre": "Amougou - Keng Godefroy",
+        "album": {
+          "idAlbum": 17,
+          "nomAlbum": "Amougou",
+          "imageAlbum": "assets/images/KengGodefroy.jpg"
+        },
+        "idCategorie": 1,
+        "nomArtiste": "Keng Godefroy",
+        "photoArtiste": "assets/images/KengGodefroy.jpg",
+        "score": 8,
+        "estFavoris": true,
+        "nomFichier": "amougou-keng-godefroy.mp3",
+        "path": "Benskin/KengGodefroy",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 18,
+        "titre": "Cocktail - Périgord",
+        "album": {
+          "idAlbum": 18,
+          "nomAlbum": "Cocktail",
+          "imageAlbum": "assets/images/Perigordco.jpg"
+        },
+        "idCategorie": 1,
+        "nomArtiste": "Périgord",
+        "photoArtiste": "assets/images/Perigordco.jpg",
+        "score": 7,
+        "estFavoris": false,
+        "nomFichier": "cocktail-perigord.mp3",
+        "path": "Benskin/Perigordco",
+        "fileType": "mp3"
+      },
+    
+      {
+        "idChanson": 23,
+        "titre": "Benskin - Nkoudou",
+        "album": {
+          "idAlbum": 23,
+          "nomAlbum": "Benskin",
+          "imageAlbum": "assets/images/Nkoudou.jpg"
+        },
+        "idCategorie": 1,
+        "nomArtiste": "Nkoudou",
+        "photoArtiste": "assets/images/Nkoudou.jpg",
+        "score": 9,
+        "estFavoris": true,
+        "nomFichier": "benskin-nkoudou.mp3",
+        "path": "Benskin/Nkoudou",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 17,
+        "titre": "Amougou - Keng Godefroy",
+        "album": {
+          "idAlbum": 17,
+          "nomAlbum": "Amougou",
+          "imageAlbum": "assets/images/KengGodefroyk.jpg"
+        },
+        "idCategorie": 1,
+        "nomArtiste": "Keng Godefroy",
+        "photoArtiste": "assets/images/KengGodefroyk.jpg",
+        "score": 8,
+        "estFavoris": true,
+        "nomFichier": "amougou-keng-godefroy.mp3",
+        "path": "Benskin/KengGodefroyk",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 37,
+        "titre": "Yéli - Abass B",
+        "album": {
+          "idAlbum": 37,
+          "nomAlbum": "Yéli",
+          "imageAlbum": "assets/images/AbassB.jpg"
+        },
+        "idCategorie": 1,
+        "nomArtiste": "Abass B",
+        "photoArtiste": "assets/images/AbassB.jpg",
+        "score": 8,
+        "estFavoris": true,
+        "nomFichier": "yeli-abass-b.mp3",
+        "path": "Benskin/AbassB",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 38,
+        "titre": "Sensibilisation - Gerard",
+        "album": {
+          "idAlbum": 38,
+          "nomAlbum": "Sensibilisation",
+          "imageAlbum": "assets/images/DjGerard.jpg"
+        },
+        "idCategorie": 1,
+        "nomArtiste": "Dj Gerard",
+        "photoArtiste": "assets/images/DjGerard.jpg",
+        "score": 7,
+        "estFavoris": false,
+        "nomFichier": "DjGerard.mp3",
+        "path": "Benskin/DjGerard",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 24,
+        "titre": "BEN DECCA - Mon amour à moi",
+        "album": {
+          "idAlbum": 24,
+          "nomAlbum": "Mon amour",
+          "imageAlbum": "assets/images/BENDECCAM.jpg"
+        },
+        "idCategorie": 1,
+        "nomArtiste": "BEN DECCA",
+        "photoArtiste": "assets/images/BENDECCAM.jpg",
+        "score": 8,
+        "estFavoris": true,
+        "nomFichier": "mon-amourBEN DECCA.mp3",
+        "path": "Benskin/BENDECCAM",
+        "fileType": "mp3"
+      },
+      {
+        "idChanson": 25,
+        "titre": "Adouwa - Wank's (Remix)",
+        "album": {
+          "idAlbum": 25,
+          "nomAlbum": "Adouwa (Remix)",
+          "imageAlbum": "assets/images/Wanks.jpg"
+        },
+        "idCategorie": 1,
+        "nomArtiste": "Wank's",
+        "photoArtiste": "assets/images/Wanks.jpg",
+        "score": 7,
+        "estFavoris": false,
+        "nomFichier": "adouwa-remix-wank's.mp3",
+        "path": "Benskin/Wanks",
+        "fileType": "mp3"
+      },
+     
+      {
+        "idChanson": 30,
+        "titre": "André - Marie Tala : Ben Skin",
+        "album": {
+          "idAlbum": 30,
+          "nomAlbum": "Benskin",
+          "imageAlbum": "assets/images/Benskin.jpg"
+        },
+        "idCategorie": 1,
+        "nomArtiste": "André - Marie Tala",
+        "photoArtiste": "assets/images/Benskin.jpg",
+        "score": 9,
+        "estFavoris": true,
+        "nomFichier": "benskin-André - Marie Tala.mp3",
+        "path": "Benskin/Benskin",
+        "fileType": "mp3"
+      }
+   
+  
+]
+

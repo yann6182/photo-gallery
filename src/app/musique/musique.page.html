@@ -1,0 +1,85 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-searchbar  (ionChange)="search($event)" placeholder="Rechercher"></ion-searchbar>
+    <ion-segment value="artistes" (ionChange)="segmentChanged($event)">
+      <ion-segment-button value="artistes">
+        Artistes
+      </ion-segment-button>
+      <ion-segment-button value="albums">
+        Albums
+      </ion-segment-button>
+      <ion-segment-button value="chansons">
+        Chansons
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="Artistes.length > 0; else skeleton">
+  <div *ngIf="segment === 'artistes'">
+    <ion-list>
+      <ion-item *ngFor="let song of Artistes" (click)="songArtist(song)">
+        <ion-thumbnail slot="start">
+          <img src="{{ song.photoArtiste }}" alt="">
+        </ion-thumbnail>
+        <ion-label>
+          <h2>{{ song.nomArtiste }}</h2>
+        </ion-label>
+      </ion-item>
+    </ion-list>
+  </div>
+
+  <div *ngIf="segment === 'albums'">
+
+    <ion-grid fixed>
+      <ion-row>
+       <ion-col size="6" *ngFor="let song of Artistes" (click)="songAlbum(song)">
+        
+        <ion-card>
+          <img src="{{ song.photoArtiste }}" alt="">
+          <ion-card-content>
+            <ion-card-title>{{ song.album.nomAlbum }}</ion-card-title>
+          </ion-card-content>
+        </ion-card>
+       </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div *ngIf="segment === 'chansons'">
+    <ion-list>
+      <ion-item *ngFor="let song of Artistes" (click)="getChanson(song.titre)">
+        <ion-thumbnail slot="start">
+          <img src="{{ song.photoArtiste }}" alt="">
+        </ion-thumbnail>
+        <ion-label>
+          <h2>{{ song.titre }}</h2>
+        </ion-label>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>
+
+<ng-template #skeleton>
+  <ion-list>
+    <ion-item *ngFor="let _ of [1, 2, 3]">
+      <ion-thumbnail slot="start">
+        <ion-skeleton-text animated style="width: 50px; height: 50px;"></ion-skeleton-text>
+      </ion-thumbnail>
+      <ion-label>
+        <h2>
+          <ion-skeleton-text animated style="width: 100px; height: 16px;"></ion-skeleton-text>
+        </h2>
+        <p>
+          <ion-skeleton-text animated style="width: 80px; height: 14px;"></ion-skeleton-text>
+        </p>
+        <p>
+          <ion-skeleton-text animated style="width: 120px; height: 14px;"></ion-skeleton-text>
+        </p>
+      </ion-label>
+      <ion-badge color="primary" mode="ios" slot="end">
+        <ion-skeleton-text animated style="width: 20px; height: 14px;"></ion-skeleton-text>
+      </ion-badge>
+    </ion-item>
+  </ion-list>
+</ng-template>

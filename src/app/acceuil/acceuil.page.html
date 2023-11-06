@@ -1,0 +1,57 @@
+
+
+<ion-header>
+  <ion-toolbar>
+    <ion-back-button text="Previous" icon="caret-back"></ion-back-button>
+    <ion-title>Acceuil </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  <br>
+  <br>
+  <ion-text class="section-title">Catégories</ion-text>
+
+  <swiper-container [modules]="swiperModules" [slidesPerView]="2" class="swiper-container" >
+    <swiper-slide *ngFor="let categorie of categories">
+      <ion-card-header [routerLink]="['/tabs/acceuil/detail-categorie',categorie.id]" class="swiper-card categorie-{{categorie.id}}">
+        <ion-card-title>{{ categorie.nom }}</ion-card-title>
+      </ion-card-header>
+    </swiper-slide>
+  </swiper-container>
+  
+  <br>
+  
+  <ion-text class="section-title">Chansons favorites</ion-text>
+  <swiper-container [modules]="swiperModules" slides-per-view="2"  >
+    <swiper-slide *ngFor="let song of songs" >
+      <ion-card-header (click)="getChanson(song.titre)">
+        <ion-card-subtitle>{{ song.titre }}</ion-card-subtitle>
+        <ion-card-title>{{ song.nomArtiste }}</ion-card-title>
+      </ion-card-header>
+    </swiper-slide>
+  </swiper-container>
+
+ <ion-text class="section-title">Artistes populaires</ion-text>
+  <ion-grid fixed="">
+    <ion-row>
+      <ion-col size="6" *ngFor="let artist of topArtists">
+        <ion-card (click)="songArtist(artist)" class="favori">
+          <ion-card-header>
+            <img class="custom-image" src="{{ artist.album.imageAlbum}}" alt="">
+            
+          </ion-card-header>
+          <ion-card-content>
+            <ion-card-title>{{ artist.nomArtiste }}</ion-card-title>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+  
+  
+
+</ion-content>
